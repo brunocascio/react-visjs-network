@@ -1,0 +1,39 @@
+{
+  "name": "react-visjs-network",
+  "version": "1.0.0",
+  "description": "A react component to render networks using [visjs.org](http://visjs.org/)",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.4.1",
+    "uuid": "^3.0.0",
+    "vis": "^4.17.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-formatter-pretty": "^1.1.0",
+    "eslint-loader": "^1.6.0",
+    "eslint-plugin-flowtype-errors": "^1.5.0",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-mocha": "^4.7.0",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-react": "^6.7.1",
+    "webpack": "^1.13.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunocascio/react-visjs-network.git"
+  },
+  "author": "Bruno Cascio <brunocascio@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunocascio/react-visjs-network/issues"
+  },
+  "homepage": "https://github.com/brunocascio/react-visjs-network#readme"
+}
